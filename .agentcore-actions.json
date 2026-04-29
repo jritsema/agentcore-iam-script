@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T11:53:50.651634",
+  "timestamp": "2026-04-29T11:55:44.548508",
   "subservices": {
     "Memory": [
       "AllowVendedLogDeliveryForResource",
@@ -27,25 +27,6 @@
       "UntagResource",
       "UpdateMemory"
     ],
-    "Policy Engine": [
-      "AuthorizeAction",
-      "CreatePolicy",
-      "CreatePolicyEngine",
-      "DeletePolicy",
-      "DeletePolicyEngine",
-      "GetPolicy",
-      "GetPolicyEngine",
-      "GetPolicyGeneration",
-      "ListPolicies",
-      "ListPolicyEngines",
-      "ListPolicyGenerationAssets",
-      "ListPolicyGenerations",
-      "ManageAdminPolicy",
-      "PartiallyAuthorizeActions",
-      "StartPolicyGeneration",
-      "UpdatePolicy",
-      "UpdatePolicyEngine"
-    ],
     "Gateway": [
       "AuthorizeAction",
       "CreateGateway",
@@ -68,6 +49,25 @@
       "UntagResource",
       "UpdateGateway",
       "UpdateGatewayTarget"
+    ],
+    "Policy Engine": [
+      "AuthorizeAction",
+      "CreatePolicy",
+      "CreatePolicyEngine",
+      "DeletePolicy",
+      "DeletePolicyEngine",
+      "GetPolicy",
+      "GetPolicyEngine",
+      "GetPolicyGeneration",
+      "ListPolicies",
+      "ListPolicyEngines",
+      "ListPolicyGenerationAssets",
+      "ListPolicyGenerations",
+      "ManageAdminPolicy",
+      "PartiallyAuthorizeActions",
+      "StartPolicyGeneration",
+      "UpdatePolicy",
+      "UpdatePolicyEngine"
     ],
     "Identity & Credentials": [
       "CompleteResourceTokenAuth",
@@ -173,6 +173,33 @@
       "UntagResource",
       "UpdateEvaluator",
       "UpdateOnlineEvaluationConfig"
+    ],
+    "Harness": [
+      "CreateHarness",
+      "DeleteHarness",
+      "GetHarness",
+      "InvokeHarness",
+      "ListHarnesses",
+      "ListTagsForResource",
+      "TagResource",
+      "UntagResource",
+      "UpdateHarness"
+    ],
+    "Tool Registry": [
+      "CreateRegistry",
+      "CreateRegistryRecord",
+      "DeleteRegistry",
+      "DeleteRegistryRecord",
+      "GetRegistry",
+      "GetRegistryRecord",
+      "InvokeRegistryMcp",
+      "ListRegistries",
+      "ListRegistryRecords",
+      "SearchRegistryRecords",
+      "SubmitRegistryRecordForApproval",
+      "UpdateRegistry",
+      "UpdateRegistryRecord",
+      "UpdateRegistryRecordStatus"
     ]
   },
   "unknown": []
