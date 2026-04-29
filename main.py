@@ -32,9 +32,6 @@ RESOURCE_TO_SUBSERVICE = {
     "code-interpreter-custom": "Code Interpreter",
     "evaluator": "Evaluation",
     "online-evaluation-config": "Evaluation",
-    "registry": "Tool Registry",
-    "registry-record": "Tool Registry",
-    "harness": "Harness",
 }
 
 # Patterns for inferring subservice from action names (fallback).

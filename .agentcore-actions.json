@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T11:55:44.548508",
+  "timestamp": "2026-04-29T12:07:21.034454",
   "subservices": {
     "Memory": [
       "AllowVendedLogDeliveryForResource",
@@ -180,9 +180,6 @@
       "GetHarness",
       "InvokeHarness",
       "ListHarnesses",
-      "ListTagsForResource",
-      "TagResource",
-      "UntagResource",
       "UpdateHarness"
     ],
     "Tool Registry": [
